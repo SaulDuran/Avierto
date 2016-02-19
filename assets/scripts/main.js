@@ -276,6 +276,38 @@
     'home': {
       init: function() {
         $('.avierto-main-container').addClass("back-transparent");
+        //Preloader
+        $(".grid-loader-container-home").show();
+        var videoElement = document.getElementById("bgvid");
+        function updateLoadingStatus() {
+          var percentLoaded = parseInt(((videoElement.buffered.end(0) / videoElement.duration) * 100));
+          if(percentLoaded === 100){
+            $(".grid-loader-container-home").animate({
+              top: $(window).height()
+            }, 1400, "easeInOutQuint", function() {
+              $(this).css("z-index",0);
+              $(this).css("top", -($(window).height() + 600));
+            });
+            $(".grid-loader-container-home").find('.grid-loader').addClass('grid-loader-hide');
+            $(".grid-loader-container-home").find('.grid-loader').removeClass('grid-loader-show');
+
+            videoElement.play();
+            videoElement.removeEventListener("progress", updateLoadingStatus);
+          } else {
+            $(".grid-loader-container-home").find('.grid-loader').removeClass('grid-loader-hide');
+            $(".grid-loader-container-home").find('.grid-loader').addClass('grid-loader-show');
+          }
+          console.log("percentLoaded-->", percentLoaded);
+        }
+        //
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+          $(".grid-loader-container-home").hide();
+        }else{
+          videoElement.addEventListener('progress', updateLoadingStatus, false);
+        }
+        
+
+
       },
       finalize: function() {
 

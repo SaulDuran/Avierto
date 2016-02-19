@@ -31,7 +31,7 @@
             </div>
         </div>
 		
-		<video autoplay loop poster="<?= $dist_path ?>images/media/poster.jpg" id="bgvid">
+		<video loop poster="<?= $dist_path ?>images/media/poster.jpg" id="bgvid">
 			<source src="<?= $dist_path ?>images/media/_home.mp4" type="video/mp4">
 		    <source src="<?= $dist_path ?>images/media/_home.webm" type="video/webm">
 		</video>
