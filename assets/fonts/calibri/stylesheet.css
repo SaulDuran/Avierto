@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'calibriregular';
+    src: url('calibri-webfont.eot');
+    src: url('calibri-webfont.eot?#iefix') format('embedded-opentype'),
+         url('calibri-webfont.woff2') format('woff2'),
+         url('calibri-webfont.woff') format('woff'),
+         url('calibri-webfont.ttf') format('truetype'),
+         url('calibri-webfont.svg#calibriregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibriitalic';
+    src: url('calibri-italic-webfont.eot');
+    src: url('calibri-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('calibri-italic-webfont.woff2') format('woff2'),
+         url('calibri-italic-webfont.woff') format('woff'),
+         url('calibri-italic-webfont.ttf') format('truetype'),
+         url('calibri-italic-webfont.svg#calibriitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibribold_italic';
+    src: url('calibri-bolditalic-webfont.eot');
+    src: url('calibri-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('calibri-bolditalic-webfont.woff2') format('woff2'),
+         url('calibri-bolditalic-webfont.woff') format('woff'),
+         url('calibri-bolditalic-webfont.ttf') format('truetype'),
+         url('calibri-bolditalic-webfont.svg#calibribold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibribold';
+    src: url('calibri-bold-webfont.eot');
+    src: url('calibri-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('calibri-bold-webfont.woff2') format('woff2'),
+         url('calibri-bold-webfont.woff') format('woff'),
+         url('calibri-bold-webfont.ttf') format('truetype'),
+         url('calibri-bold-webfont.svg#calibribold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
