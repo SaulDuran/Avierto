@@ -41,7 +41,7 @@
                         <li>Torneos mixtos</li>
                         <li>Torneos empresariales</li>
                         <li>Cascaritas</li>
-                        <li style="margin-top:5px;"><a href="contacto.html"><b>¡Inscríbete!</b></a></li>
+                        <li style="margin-top:5px;"><a href="/contacto/"><b>¡Inscríbete!</b></a></li>
                     </ul>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                 <div class="container texto-somosyparrafo">
                     <h3>Avierto para los que buscan más que fútbol</h3>
                     <p>Tenemos una oferta diversa de actividades para que aprendas, entrenes y compartas avierto</p>
-                    <a href="actividades.html"><b>¡Participa, inscríbete y descubre tu potencial!</b></a>
+                    <a href="/actividades/"><b>¡Participa, inscríbete y descubre tu potencial!</b></a>
                 </div>
             </div>
 
@@ -197,7 +197,7 @@
                 <div class="container texto-somosyparrafo">
                     <h3>¡Renta Avierto!</h3>
                     <p>Tenemos el espacio que necesitas para organizar tus torneos o cascaritas de fútbol, hacer de tus reuniones y eventos una experiencia única y original, celebrar las fechas importanes o realizar tus cursos o talleres.</p>
-                    <a href="contacto.html"><b>¡Vive la experiencia Avierto!</b></a>
+                    <a href="/contacto/"><b>¡Vive la experiencia Avierto!</b></a>
                 </div>
             </div>
             

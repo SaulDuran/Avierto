@@ -51,7 +51,7 @@
                     <li>Femeniles</li>
                     <li>Mixtos</li>
                     <li>Empresariales</li>
-                    <li style="margin-top:5px;"><a href="contacto.html"><b>¡Inscríbete!</b></a></li>
+                    <li style="margin-top:5px;"><a href="/contacto/"><b>¡Inscríbete!</b></a></li>
                 </ul>
             </div>
         </div>
