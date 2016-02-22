@@ -29,6 +29,7 @@
                 <img class="img-responsive" src="<?= $dist_path ?>images/logo_avierto.png" alt="Logo Oficial Avierto">
                 <div class="frase-home">Pasión y vitalidad en un solo espacio</div>
             </div>
+            <div style="position: absolute; width: 100%; height: 100vh; background: rgba(0, 0, 0, 0.1); left: 0; top: 0;"></div>
         </div>
 		
 		<video loop poster="<?= $dist_path ?>images/media/poster.jpg" id="bgvid">
